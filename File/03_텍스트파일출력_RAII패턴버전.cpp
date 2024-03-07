@@ -1,16 +1,16 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <fstream>
 
 using namespace std;
 
 int main(void)
 {
-	// ±ÍÂú°Ô ÀÏÀÏÈ÷ \\À¸·Î ºÙ¿©Áà¾ßÇÑ´Ù.
+	// ê·€ì°®ê²Œ ì¼ì¼íˆ \\ìœ¼ë¡œ ë¶™ì—¬ì¤˜ì•¼í•œë‹¤.
 	ofstream os("test.txt");
 
 	if (!os)
 	{
-		cerr << "¿¡·¯" << endl;
+		cerr << "ì—ëŸ¬" << endl;
 		exit(1);
 	}
 
@@ -19,6 +19,6 @@ int main(void)
 		os << i << " ";
 	}
 
-	//RAII ÆĞÅÏÀ» ÀÌ¿ëÇÏ¸é open fail clo
+	//RAII íŒ¨í„´ì„ ì´ìš©í•˜ë©´ open fail clo
 	return 0;
 }

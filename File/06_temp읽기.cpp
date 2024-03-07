@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <fstream>
 #include <string>
 
@@ -15,7 +15,7 @@ int main(void)
 
 	if (!is)
 	{
-		cerr << "ÆÄÀÏ ¿­±â ½ÇÆÐ" << endl;
+		cerr << "íŒŒì¼ ì—´ê¸° ì‹¤íŒ¨" << endl;
 		exit(1);
 	}
 
@@ -24,7 +24,7 @@ int main(void)
 
 	while (is >> hour >> temperature)
 	{
-		cout << hour << "½Ã: ¿Âµµ " << temperature << endl;
+		cout << hour << "ì‹œ: ì˜¨ë„ " << temperature << endl;
 	}
 
 
@@ -57,7 +57,7 @@ int main(void)
 
 	if (!is)
 	{
-		cerr << "ÆÄÀÏ ½ÇÆÐ" << endl;
+		cerr << "íŒŒì¼ ì‹¤íŒ¨" << endl;
 		exit(1);
 	}
 
@@ -68,16 +68,16 @@ int main(void)
 		temps.push_back(TempData{ hour,temperature });
 		sumTemp += temperature;
 	}
-	cout << "º¤ÅÍÀÇ »çÀÌÁî : " << temps.size() << '\n';
+	cout << "ë²¡í„°ì˜ ì‚¬ì´ì¦ˆ : " << temps.size() << '\n';
 
 	for (TempData t : temps)
 	{
-		cout << t.hour << "½Ã: ¿Âµµ " << t.temperature << '\n';
+		cout << t.hour << "ì‹œ: ì˜¨ë„ " << t.temperature << '\n';
 	}
 
 	avgTemp = sumTemp / temps.size();
 
-	cout << "Æò±Õ ¿Âµµ°ª : " << avgTemp << '\n';
+	cout << "í‰ê·  ì˜¨ë„ê°’ : " << avgTemp << '\n';
 
 
 	return 0;

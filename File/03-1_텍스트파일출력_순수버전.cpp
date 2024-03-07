@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <fstream>
 
 using namespace std;
@@ -10,7 +10,7 @@ int main(void)
 
 	if (os.fail())
 	{
-		cerr << "ÆÄÀÏ ¿­±â ½ÇÆÐ" << endl;
+		cerr << "íŒŒì¼ ì—´ê¸° ì‹¤íŒ¨" << endl;
 		exit(1);
 	}
 
