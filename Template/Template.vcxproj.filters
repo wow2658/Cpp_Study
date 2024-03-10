@@ -14,18 +14,4 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="19_예외처리 try throw catch 피자.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="20_예외처리 문자열 throw string 가위바위보.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="22-1_예외전달 밖에서 throw하기 abort.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="22-2_예외전달 함수체인과 재귀 스택.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>
