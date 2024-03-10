@@ -27,5 +27,14 @@
     <ClCompile Include="22-2_예외전달 함수체인과 재귀 스택.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="23-1_exception Class standard library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="23-2_사용자 정의 예외 클래스 상속받아 만들기.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="24_사용자 정의 예외 클래스 순수하게 만들기.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
