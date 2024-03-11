@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="03_텍스트파일출력_RAII패턴버전.cpp">
+    <ClCompile Include="03-1_텍스트파일출력_RAII패턴버전.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="03-1_텍스트파일출력_순수버전.cpp">
+    <ClCompile Include="03-2_텍스트파일출력_순수버전.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="05_텍스트파일읽기 get%28%29 getline%28%29.cpp">
