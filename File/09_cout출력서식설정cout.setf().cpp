@@ -27,7 +27,7 @@ int main()
 	cout << "8진수 num1 = " << num1 << endl;
 	cout << dec;
 	// 실험해보니 cout << dec같은 명령이 cout의 성질을 계속 좌우한다는 것을 알 수 있었다.
-	// 그리고 부동소수점 표기들에게는 hex oct가 먹히지 않고 정수표기를 하겠다고 *(unsigned long long*) &를 붙여서 써줘야만 표현이 가능한 것을 확인했다.
+	//! 그리고 부동소수점 표기들에게는 hex oct가 먹히지 않고 정수표기를 하겠다고 *(unsigned long long*) &를 붙여서 써줘야만 표현이 가능한 것을 확인했다.
 	// 그냥 (long long)으로 캐스팅하면 소수부분이 날아가는데 위의 방법은 비트로 접근해서 위험하지만 보존된다.
 
 	cout.setf(ios::showpos); // 동시에는 안된다.
