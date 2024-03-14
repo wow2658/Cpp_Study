@@ -42,13 +42,13 @@
     <ClCompile Include="13_const+datatypeOrclass+const Circle class.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="14_dynamic allocate new %28nothrow%29int[size] delete[] nullptr 0_1_2_3_4.cpp">
+    <ClCompile Include="14-1_dynamic allocate new %28nothrow%29int[size] delete[] nullptr 0_1_2_3_4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="15_dynamic allocate new string[length] delete[] nullptr [0] 1.cpp">
+    <ClCompile Include="14-2_dynamic allocate new string[length] delete[] nullptr [0] 1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="15_pointer vs reference Time class isEqual.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

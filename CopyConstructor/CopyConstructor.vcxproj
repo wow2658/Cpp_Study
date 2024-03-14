@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e6772409-80a4-41ca-ab30-42150e68b3cd}</ProjectGuid>
-    <RootNamespace>Pointer</RootNamespace>
+    <ProjectGuid>{cd6395e5-67ec-4b24-a789-c09f9e90b3fd}</ProjectGuid>
+    <RootNamespace>CopyConstructor</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,50 +127,44 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="03_pointer dereference Indirection operator NULL nullptr.cpp">
+    <ClCompile Include="20_복사생성자 호출시점 3가지.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="06_pointer new delete Dynamic Memory Allocation.cpp">
+    <ClCompile Include="21_복사생성자 얕은복사의 문제점 동적메모리 공유.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="07_smartpointer unique_ptr make_unique  move get reset release return unique_ptr.cpp">
+    <ClCompile Include="22_복사생성자 깊은복사로 문제해결 및 호출시점 복습.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="08_smartpointer shared_ptr make_shared use_count .cpp">
+    <ClCompile Include="23_복사생성자 호출 안되는 시점과 = ==연산자.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="10-1_pointer Dog class.cpp">
+    <ClCompile Include="26_Has-a Student Date class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="10-2_pointer Dog member pointer class.cpp">
+    <ClCompile Include="27_Is-a shape Rectangle class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="10-3_pointer Dog member unique pointer class.cpp">
+    <ClCompile Include="28_정적변수의 값 변화과정 메모리 주소 접근방법 staticCircle class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="12_smartpointer Monster class.cpp">
+    <ClCompile Include="29_정적함수를 이용한 엉터리 claculator class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="13_const+datatypeOrclass+const Circle class.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="14-1_dynamic allocate new %28nothrow%29int[size] delete[] nullptr 0_1_2_3_4.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="14-2_dynamic allocate new string[length] delete[] nullptr [0] 1.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="15_pointer vs reference Time class isEqual.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Circle.h" />
-    <ClInclude Include="Dog.h" />
-    <ClInclude Include="Dog_member_pointer.h" />
-    <ClInclude Include="Dog_member_unique_pointer.h" />
-    <ClInclude Include="Monster.h" />
-    <ClInclude Include="Time.h" />
+    <ClInclude Include="Calculator.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Member.h" />
+    <ClInclude Include="MyArray_shallowcopy.h" />
+    <ClInclude Include="MyArray_deepcopy.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="staticCircle.h" />
+    <ClInclude Include="Student.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

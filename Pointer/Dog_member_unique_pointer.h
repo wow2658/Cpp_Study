@@ -10,7 +10,7 @@ private:
 	unique_ptr<int> pWeight;
 	unique_ptr<int> pAge;
 public:
-	Dog() : pWeight{ make_unique<int>(10) }, pAge(make_unique<int>(1))	// { { } } 안됨, ( { } ) 안됨
+	Dog() : pWeight(make_unique<int>(10)), pAge(make_unique<int>(1))	// { { } } 안됨, ( { } ) 안됨
 	{
 		cout << "생성자 호출" << endl;
 		//this->pAge = new int(1); this->pWeight = new int{ 10 };	//이쪽도 마찬가지로 괄호 {10} (1) 둘다 유효하다.

@@ -9,10 +9,11 @@ private:
 	int* pWeight;
 	int* pAge;
 public:
-	Dog() : pWeight{ new int{10} }, pAge{ new int(1) }				//괄호 {10} (1) 둘다 유효하다. 역시 생성자 초기화는 여기에서!
+	Dog() : pWeight( new int(10) ), pAge( new int(1) )				//괄호 {10} (1) 둘다 유효하다. 역시 생성자 초기화는 여기에서!
 	{
 		cout << "생성자 호출" << endl;
 		//this->pAge = new int(1); this->pWeight = new int{ 10 };	//이쪽도 마찬가지로 괄호 {10} (1) 둘다 유효하다.
+																	//그러나 소괄호를 선호해야한다.
 		cout << "this는 주소를 지닌 포인터인가? 생성자에서 : " << this << endl;
 	}
 	~Dog()
