@@ -26,9 +26,9 @@ int main(void) {
 	camera2->capture();
 	camera3->capture();
 
-	//camera1->~Camera();
-	delete camera1;
-	Sleep(3000);
+	//camera1->~Camera(); ----------------------> 그냥 확실하게 Camera.h의 소멸자 부분에서 delete 해버리면 해결은 할 수 있다!
+	//delete camera1;
+	//Sleep(3000);
 	//camera1 = nullptr;
 	//system("pause");
 	cout << "camera1 instance의 주소 : " << camera1 << endl;

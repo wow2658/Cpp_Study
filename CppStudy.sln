@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pointer", "Pointer\Pointer.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyConstructor", "CopyConstructor\CopyConstructor.vcxproj", "{CD6395E5-67EC-4B24-A789-C09F9E90B3FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OperatorOverloading", "OperatorOverloading\OperatorOverloading.vcxproj", "{BBD376F5-EF28-4FA9-9386-FB0F787BFB3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{CD6395E5-67EC-4B24-A789-C09F9E90B3FD}.Release|x64.Build.0 = Release|x64
 		{CD6395E5-67EC-4B24-A789-C09F9E90B3FD}.Release|x86.ActiveCfg = Release|Win32
 		{CD6395E5-67EC-4B24-A789-C09F9E90B3FD}.Release|x86.Build.0 = Release|Win32
+		{BBD376F5-EF28-4FA9-9386-FB0F787BFB3C}.Debug|x64.ActiveCfg = Debug|x64
+		{BBD376F5-EF28-4FA9-9386-FB0F787BFB3C}.Debug|x64.Build.0 = Debug|x64
+		{BBD376F5-EF28-4FA9-9386-FB0F787BFB3C}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBD376F5-EF28-4FA9-9386-FB0F787BFB3C}.Debug|x86.Build.0 = Debug|Win32
+		{BBD376F5-EF28-4FA9-9386-FB0F787BFB3C}.Release|x64.ActiveCfg = Release|x64
+		{BBD376F5-EF28-4FA9-9386-FB0F787BFB3C}.Release|x64.Build.0 = Release|x64
+		{BBD376F5-EF28-4FA9-9386-FB0F787BFB3C}.Release|x86.ActiveCfg = Release|Win32
+		{BBD376F5-EF28-4FA9-9386-FB0F787BFB3C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

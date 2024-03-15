@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cd6395e5-67ec-4b24-a789-c09f9e90b3fd}</ProjectGuid>
-    <RootNamespace>CopyConstructor</RootNamespace>
+    <ProjectGuid>{bbd376f5-ef28-4fa9-9386-fb0f787bfb3c}</ProjectGuid>
+    <RootNamespace>OperatorOverloading</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,46 +127,50 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="20_복사생성자 호출시점 3가지.cpp">
+    <ClCompile Include="34_연산자 중복정의 operator +  to_sting%28this x%29 MyVector2d class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="21_복사생성자 얕은복사의 문제점 동적메모리 공유.cpp">
+    <ClCompile Include="35_연산자 중복정의 operator == != boolalpha Time class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="22_복사생성자 깊은복사로 문제해결 및 호출시점 복습.cpp">
+    <ClCompile Include="37_연산자 중복정의 ++ 전위 후위 증감의 차이점 Counter class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="23_복사생성자 호출 안되는 시점과 = ==연산자.cpp">
+    <ClCompile Include="39_연산자 중복정의 = 대입연산자와 복사생성자 기본생성자 구별 Box class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="26_Has-a Student Date class.cpp">
+    <ClCompile Include="40_연산자 중복정의 = 대입연산자로 인한 얕은복사의 문제점과 깊은복사로 해결 Member class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="27_Is-a shape Rectangle class.cpp">
+    <ClCompile Include="41_연산자 중복정의 [] MyArray class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="28_정적변수의 값 변화과정 메모리 주소 접근방법 staticCircle class.cpp">
+    <ClCompile Include="42_연산자 중복정의 []와 =대입방지 Dynamic_array class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="29_정적함수를 이용한 고장난 Claculator class.cpp">
+    <ClCompile Include="44_연산자 중복정의 멤버접근연산자 별표 화살표 Number.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="30_싱글톤디자인패턴 맛보기와 어떠한버그 Camera class.cpp">
+    <ClCompile Include="45_연산자 중복정의 활용 스마트포인터 구현 Point Smartpoint class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="47_friend 함수와 friend 클래스.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Calculator.h" />
-    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Box.h" />
+    <ClInclude Include="Complex.h" />
+    <ClInclude Include="Counter.h" />
     <ClInclude Include="Date.h" />
-    <ClInclude Include="Rectangle.h" />
-    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Dynamic_array.h" />
+    <ClInclude Include="Number.h" />
+    <ClInclude Include="MyArray.h" />
     <ClInclude Include="Member.h" />
-    <ClInclude Include="MyArray_shallowcopy.h" />
-    <ClInclude Include="MyArray_deepcopy.h" />
+    <ClInclude Include="MyVector2d.h" />
     <ClInclude Include="Person.h" />
-    <ClInclude Include="staticCircle.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Smartpoint.h" />
     <ClInclude Include="Student.h" />
+    <ClInclude Include="Time.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

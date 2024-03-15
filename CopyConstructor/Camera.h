@@ -22,6 +22,7 @@ public:
 	}
 	~Camera()
 	{
+		delete instance;
 		cout << "소멸자 호출" << endl;
 	}
 };
