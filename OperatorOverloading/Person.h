@@ -31,5 +31,5 @@ public:
 //void Person::printPerson(Person person)
 void printPerson(Person person) 
 {
-	cout << "Person( " << person.age << ", " << person.name << " )" << endl;
+	cout << "Person( " << person.age << ", " << person.name << " )" << endl; //crack! person의 age, name 둘 다 private였다.
 }

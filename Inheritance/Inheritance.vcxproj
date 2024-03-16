@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{bbd376f5-ef28-4fa9-9386-fb0f787bfb3c}</ProjectGuid>
-    <RootNamespace>OperatorOverloading</RootNamespace>
+    <ProjectGuid>{dcf89954-3d9a-40a5-8b7b-cc4b04c98899}</ProjectGuid>
+    <RootNamespace>Inheritance</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,62 +127,48 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="34_연산자 중복정의 operator +  to_sting%28this x%29 MyVector2d class.cpp">
+    <ClCompile Include="54_상속관계 생성자 소멸자 순서 호출가능멤버 protected car sportsCar class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="35_연산자 중복정의 operator == != boolalpha Time class.cpp">
+    <ClCompile Include="55_상속관계 메모리크기 print set shape rect class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="37_연산자 중복정의 ++ 전위 후위 증감의 차이점 Counter class.cpp">
+    <ClCompile Include="57_상속관계 추상화 Tv class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="39_연산자 중복정의 = 대입연산자와 복사생성자 기본생성자 구별 Box class.cpp">
+    <ClCompile Include="60_상속 접근지정자 student member class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="40_연산자 중복정의 = 대입연산자로 인한 얕은복사의 문제점과 깊은복사로 해결 Member class.cpp">
+    <ClCompile Include="61_오버라~이~딩과 오버로딩 animal cat dog class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="41_연산자 중복정의 [] MyArray class.cpp">
+    <ClCompile Include="62_범위연산자로 부모클래스의 멤버함수 멤버변수 호출 child parent class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="42_연산자 중복정의 []와 =대입방지 Dynamic_array class.cpp">
+    <ClCompile Include="65-1_다중상속 오류없는 버전.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="44_연산자 중복정의 멤버접근연산자 별표 화살표 Number.cpp">
+    <ClCompile Include="65-2_다중상속 ambiguous error 범위 연산자로 해결.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="45_연산자 중복정의 활용 스마트포인터 구현 Point Smartpoint class.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="47_friend 함수와 friend 클래스.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="48_firend 함수의 주된 용도 equals add 멤버함수와 비교 Date Complex class.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="50_출력연산자 중복정의 friend로 ostream 뚫기 Student class.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="51_출력연산자 중복정의 istream ostream const ref 사용판단 ThreePoint class .cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Box.h" />
-    <ClInclude Include="Complex.h" />
-    <ClInclude Include="Counter.h" />
-    <ClInclude Include="Date.h" />
-    <ClInclude Include="Dynamic_array.h" />
-    <ClInclude Include="Number.h" />
-    <ClInclude Include="MyArray.h" />
-    <ClInclude Include="Member.h" />
-    <ClInclude Include="MyVector2d.h" />
-    <ClInclude Include="Person.h" />
-    <ClInclude Include="Point.h" />
-    <ClInclude Include="Smartpoint.h" />
-    <ClInclude Include="Student.h" />
-    <ClInclude Include="ThreePoint.h" />
-    <ClInclude Include="Time.h" />
+    <ClInclude Include="animal.h" />
+    <ClInclude Include="car.h" />
+    <ClInclude Include="cat.h" />
+    <ClInclude Include="child_class.h" />
+    <ClInclude Include="colorTv.h" />
+    <ClInclude Include="dog.h" />
+    <ClInclude Include="member.h" />
+    <ClInclude Include="parent_class.h" />
+    <ClInclude Include="rectangle.h" />
+    <ClInclude Include="shape.h" />
+    <ClInclude Include="smartTv.h" />
+    <ClInclude Include="sportsCar.h" />
+    <ClInclude Include="student_Member.h" />
+    <ClInclude Include="Tv.h" />
+    <ClInclude Include="wideTv.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

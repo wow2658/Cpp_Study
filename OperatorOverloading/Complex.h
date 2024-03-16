@@ -24,6 +24,11 @@ public:
 		cout << this->re << " + " << this->im << "i" << endl;
 	}
 	friend Complex add(Complex c1, Complex c2);
+
+	Complex add(Complex c2)
+	{
+		return Complex(this->re + c2.re, this->im + c2.im);
+	}
 };
 Complex add(Complex c1, Complex c2) 
 {
