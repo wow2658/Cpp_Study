@@ -39,7 +39,7 @@
     <ClCompile Include="65-2_다중상속 ambiguous error 범위 연산자로 해결.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="66_상속관계 오버라이딩 부모생성자 컨트롤 employee Manager class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

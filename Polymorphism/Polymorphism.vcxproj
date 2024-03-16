@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dcf89954-3d9a-40a5-8b7b-cc4b04c98899}</ProjectGuid>
-    <RootNamespace>Inheritance</RootNamespace>
+    <ProjectGuid>{a87f2f96-c4df-4df3-ad1c-8cfe9b31dea0}</ProjectGuid>
+    <RootNamespace>Polymorphism</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,50 +127,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="54_상속관계 생성자 소멸자 순서 호출가능멤버 protected car sportsCar class.cpp">
+    <ClCompile Include="69_virutal 함수를 통한 다형성 구현 업캐스팅.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="55_상속관계 메모리크기 print set shape rect class.cpp">
+    <ClCompile Include="72-2_업캐스팅에서 가상소멸자가 필요한 이유.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="57_상속관계 추상화 Tv class.cpp">
+    <ClCompile Include="70_업캐스팅 다운캐스팅 주의사항 dynamic_cast사용조건 car fire_car Ambulance class.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="60_상속 접근지정자 student member class.cpp">
+    <ClCompile Include="72-1_참조자를 통한 다형성 구현.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="61_오버라~이~딩과 오버로딩 animal cat dog class.cpp">
+    <ClCompile Include="73_업캐스팅에서 가상소멸자 포인터 멤버변수 버전.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="62_범위연산자로 부모클래스의 멤버함수 멤버변수 호출 child parent class.cpp">
+    <ClCompile Include="74_순수가상함수와 추상클래스 업캐스팅 가상소멸자 dynamic_cast사용조건.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="65-1_다중상속 오류없는 버전.cpp">
+    <ClCompile Include="75_순수가상함수와 추상클래스 인터페이스 구현 ICamera class __interface.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="65-2_다중상속 ambiguous error 범위 연산자로 해결.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="66_상속관계 오버라이딩 부모생성자 컨트롤 employee Manager class.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="76_다형성을 이용한 동물농장 인터페이스 Animal Dog Cat class.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="animal.h" />
+    <ClInclude Include="ambulance.h" />
     <ClInclude Include="car.h" />
-    <ClInclude Include="cat.h" />
-    <ClInclude Include="child_class.h" />
-    <ClInclude Include="colorTv.h" />
-    <ClInclude Include="dog.h" />
-    <ClInclude Include="member.h" />
-    <ClInclude Include="parent_class.h" />
-    <ClInclude Include="rectangle.h" />
-    <ClInclude Include="shape.h" />
-    <ClInclude Include="smartTv.h" />
-    <ClInclude Include="sportsCar.h" />
-    <ClInclude Include="student_Member.h" />
-    <ClInclude Include="Tv.h" />
-    <ClInclude Include="wideTv.h" />
+    <ClInclude Include="fire_car.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
