@@ -48,6 +48,15 @@
     <ClCompile Include="35-2_template Circle class getArea.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="37_Nontype Template Arguments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="38_Variadic Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="39_type_traits+static_assert.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Box_template_class.h">
