@@ -21,7 +21,7 @@
     <ClCompile Include="typedef vs using alias.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="FileName.cpp">
+    <ClCompile Include="Functor_function object.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

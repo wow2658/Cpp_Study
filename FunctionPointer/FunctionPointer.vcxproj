@@ -19,7 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FileName.cpp" />
+    <ClCompile Include="Functor_function object.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="typedef vs using alias.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>

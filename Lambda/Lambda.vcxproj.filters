@@ -24,5 +24,11 @@
     <ClCompile Include="67-3_lambda arr sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lambda functor capture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lambda within a lambda.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
